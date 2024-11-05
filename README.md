@@ -82,3 +82,44 @@ These metrics collectively offer a comprehensive view of how each promotion perf
 
 Based on the Q-Q Plot by Sales & Promotion Types we can see that data is not distributed normally.
 
+## Model Accuracy & Comparison
+
+![Unknown-8](https://github.com/user-attachments/assets/37f5d29d-a201-466f-95b0-3251a1414a58)
+
+
+
+## Model Performance Analysis of Regression Techniques
+
+The following analysis presents the accuracy of various regression models used to predict sales:
+
+Gradient Boosting: 76.44%
+
+This model demonstrates the highest accuracy, indicating its effectiveness in capturing complex relationships within the data.
+
+K-Nearest Neighbors: 71.17%
+
+With solid performance, KNN is effective in scenarios where local patterns are significant, making it a useful model for regression tasks.
+
+Random Forest: 70.78%
+
+As an ensemble method, Random Forest performs well by averaging multiple decision trees, thus reducing overfitting and handling various data distributions effectively.
+
+Decision Tree: 58.45%
+
+While easy to interpret, the decision tree's lower accuracy suggests it may be too simplistic for this dataset, capturing some trends but failing to generalize well.
+
+Linear Regression: 27.53%
+
+This model shows the lowest accuracy, indicating that a simple linear approach is insufficient for capturing the underlying patterns in the data.
+
+## Conclusion
+
+The analysis of model performance across several regression techniques highlights the strengths and limitations of each model in predicting sales. Gradient Boosting stands out as the most suitable model, achieving an accuracy of 76.44%. Its ability to capture complex, nonlinear relationships within the data makes it well-suited for predicting sales, particularly in dynamic, high-dimensional datasets.
+
+The K-Nearest Neighbors (KNN) model, with an accuracy of 71.17%, performs respectably, especially in contexts where local patterns are crucial. Its accuracy suggests it may be beneficial for tasks where sales are influenced by similar data points, though it lacks the robustness of ensemble-based models. The Random Forest model, achieving 70.78%, also shows strong performance. Its ensemble approach helps mitigate overfitting by averaging multiple decision trees, making it adept at managing diverse data distributions and enhancing model stability.
+
+On the other hand, the Decision Tree model, with an accuracy of 58.45%, offers interpretability but falls short in predictive power, indicating that it is likely too simplistic for this dataset's complexity. Linear Regression, with an accuracy of only 27.53%, is the least suitable model for this task, demonstrating that a linear approach fails to capture the nuanced patterns within the data.
+
+Overall, this analysis recommends Gradient Boosting as the optimal choice for accurate sales predictions, given its ability to capture intricate patterns. The hierarchy of model effectiveness—from Gradient Boosting to Linear Regression—provides clear guidance for model selection, highlighting the need for advanced, ensemble-based techniques for improved forecasting accuracy in similar datasets. This ranking can guide model deployment for ongoing and future predictive analytics efforts.
+
+
