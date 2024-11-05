@@ -53,4 +53,10 @@ Calculate the IQR as IQR = Q3 − Q1
 Determine the Bounds:
 
 Lower bound = Q1 − 1.5 × IQR Upper bound = Q3 + 1.5 × IQR
-![Unknown-7](https://github.com/user-attachments/assets/a03b68e2-8478-4094-bc80-bc6c93a76b7e)
+
+
+
+![Unknown-5](https://github.com/user-attachments/assets/b370a811-9d23-4c78-8f75-1b5d90c846a5)
+![Unknown-6](https://github.com/user-attachments/assets/7fef51de-b25e-4f84-a7eb-de482f8166b8)
+![Unknown-7](https://github.com/user-attachments/assets/db2a8927-0a4c-46bd-9a2b-8f0416b5fcbc)
+
