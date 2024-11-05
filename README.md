@@ -41,6 +41,9 @@ The dataset contains 548 rows and 7 columns. Data Types: MarketID, LocationID, A
 Quantiles: MarketID: Values range from 1 to 10. LocationID: Ranges from 1 to 920, with a median of 504. AgeOfStore: Ranges from 1 to 28
 
 
+
+## Boxplot
+
 ![Unknown](https://github.com/user-attachments/assets/759f9922-217f-41fa-8e57-81f6942befd2)
 
 Looking at the box plot we can see there are outliers so removing them so main advantage is Enhanced Accuracy of the Model: By eliminating outliers, which have the potential to distort results, models may become more accurate. More Focus on Typical Patterns and Trends: Prevents the study from being distorted by extreme numbers, allowing for clearer insights. Superior Statistical Tests: Outliers can cause disruptions to the normalcy that many statistical tests presume. Adverse effects Information Loss: Significant variances or unusual occurrences may be represented by outliers. Bias: If outliers are a natural aspect of variability, eliminating them could generate bias. Results can be misinterpreted if outliers are removed without properly documenting the process.
@@ -53,6 +56,9 @@ Calculate the IQR as IQR = Q3 − Q1
 Determine the Bounds:
 
 Lower bound = Q1 − 1.5 × IQR Upper bound = Q3 + 1.5 × IQR
+
+
+
 
 
 
