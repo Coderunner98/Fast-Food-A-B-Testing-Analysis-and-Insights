@@ -121,15 +121,16 @@ The K-Nearest Neighbors (KNN) model, with an accuracy of 71.17%, performs respec
 
 ## Recommendations
 
-## 1. Prioritize Gradient Boosting for Sales Predictions
+1. Prioritize Gradient Boosting for Sales Predictions
 
 Use Gradient Boosting as the primary model for predicting sales, given its ability to handle complex data relationships effectively. This model should be the first choice for any future sales forecasting tasks in this dataset or similar ones.
 
-## 2. Consider K-Nearest Neighbors and Random Forest for Supplementary Analysis
+ 2. Consider K-Nearest Neighbors and Random Forest for Supplementary Analysis
 
 While Gradient Boosting is recommended as the primary model, K-Nearest Neighbors and Random Forest can be useful for supplementary analyses. KNN may offer insights in contexts where local data similarities matter, and Random Forest provides a stable, ensemble-based alternative that can handle varied data distributions.
 
- ## 3. Avoid Simple Models like Linear Regression and Decision Tree for Complex Datasets
+ 3. Avoid Simple Models like Linear Regression and Decision Tree for Complex Datasets
+    
 Refrain from using simpler models such as Linear Regression and Decision Tree for complex datasets, as they lack the predictive accuracy needed for nuanced patterns. These models may be more suitable for straightforward, linear datasets where interpretability is prioritized over accuracy.
 
 On the other hand, the Decision Tree model, with an accuracy of 58.45%, offers interpretability but falls short in predictive power, indicating that it is likely too simplistic for this dataset's complexity. Linear Regression, with an accuracy of only 27.53%, is the least suitable model for this task, demonstrating that a linear approach fails to capture the nuanced patterns within the data.
